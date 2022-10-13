@@ -1,0 +1,133 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        background-color: #0d192c;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-container {
+        width: 350px;
+        background-color: #15263f;
+        border-radius: 15px;
+        padding: 24px;
+      }
+
+      .main-image {
+        max-width: 100%;
+        border-radius: 8px;
+        display: block;
+      }
+
+      .top-image {
+        position: absolute;
+        border-radius: 8px;
+        padding: 127px;
+        background-color: rgba(0, 255, 248, 0.503);
+      }
+
+      h1,
+      p {
+        font-family: "Outfit", sans-serif;
+      }
+
+      h1 {
+        font-weight: 600;
+        font-size: 22px;
+        color: #ffffff;
+        margin-top: 24px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #7d889e;
+      }
+
+      .main-text {
+        font-size: 18px;
+        font-weight: 300;
+        margin: 16px 0 24px 0;
+        line-height: 26px;
+      }
+
+
+      .price,
+      .countdown,
+      .details-container,
+      .creator-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .details-container {
+        justify-content: space-between;
+      }
+
+      .price > img {
+        width: 11px;
+        margin-right: 6.48px;
+      }
+
+      .price > p {
+        color: #00fff8;
+        font-weight: 600;
+      }
+
+
+      .countdown > img {
+        margin-right: 7.7px;
+        width: 16px;
+      }
+
+
+      hr {
+        margin: 24px 0 16px 0;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #2e405a;
+      }
+
+
+      .creator-container {
+        justify-content: flex-start;
+        margin-bottom: 8px;
+      }
+
+      .creator-container > img {
+        width: 33px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        margin-right: 16px;
+      }
+
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      a:hover {
+        color: #00fff8;
+      }
+
+
+
+      .main-container > a > img {
+        transition: 200ms ease-in-out;
+      }
+
+      .main-container > a > img.fade {
+        opacity: 0;
+      }
+
+      .main-container > a > img.fade:hover {
+        opacity: 1;
+      }
